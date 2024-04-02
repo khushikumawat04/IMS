@@ -1,0 +1,16 @@
+.registrationform{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-left: 30rem;
+    margin-top: 2rem;
+    width: 650px;
+    height: auto;
+    background-color: #fff;
+}
+.registrationform label{
+    font-weight: bold;
+    margin: 3px;
+}
+.sign{
+    text-align: center;
+    text-transform: uppercase;
+}

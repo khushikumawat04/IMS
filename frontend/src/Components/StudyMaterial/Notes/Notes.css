@@ -1,0 +1,44 @@
+:root{
+    --main-color: #2C6975
+}
+.body{
+    margin-left: 12rem;
+}
+
+/* button */
+.buttton-value{
+    border: 2px solid var(--main-color);
+    padding: 1em 1em;
+    border-radius: 1em;
+     margin: 2px;
+    width: 150px;
+    background-color: transparent;
+    color: black;
+    
+}
+.card-title{
+    color: black;
+}
+.Notecards{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.grid{
+    display: grid;
+		grid-template-columns: repeat(auto-fit,minmax(50px,120px));; 
+		grid-gap: 5rem;
+
+        
+}
+
+/* media */
+@media (min-width: 200px) and (max-width: 992px){
+    .card1{
+      margin:  40px; 
+      /* padding: 10px;
+      border: 2px solid black; */
+        
+       
+    }
+
+}

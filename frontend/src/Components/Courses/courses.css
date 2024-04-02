@@ -1,0 +1,12 @@
+.coursecard{
+    margin: 40px 1rem 0px 18rem;
+}
+.cardgrid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1.5fr) );
+    grid-gap: 40px;
+}
+.enrollnow{
+    background-color:  #00796b;
+        color: #ffff;
+}

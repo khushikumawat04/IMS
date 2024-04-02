@@ -1,0 +1,56 @@
+.row{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    /* margin-top: 5rem; */
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* border: 2px solid red; */
+    grid-gap: 1rem;
+}
+.heading{
+    color: #00796b;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.cardViewer{
+    box-shadow: 1px 1px 1px #888;
+
+}
+
+.cardViewer:hover{
+    background-color: #00796b;
+    color: white;
+    box-shadow: 5px 5px 5px #888;
+    cursor: pointer;
+}
+
+.icon{
+    font-size: xx-large;
+}
+
+.kuchbhi{
+    /* border: 2px solid red; */
+    margin-right: 3%;
+    margin-left: 20%;
+    margin-top: 5rem;
+    
+}
+
+.card-body{
+    color: black;
+}
+
+.card-body:hover{
+    color: white;
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+    .kuchbhi{
+        /* border: 2px solid red; */
+        margin-right: 3%;
+        margin-left: 5%;
+        margin-top: 0.5rem;  
+    }
+}

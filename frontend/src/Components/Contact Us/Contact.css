@@ -1,0 +1,127 @@
+
+.contact_info_item{
+    border-radius: 5px;
+	border: none;
+	background: #fff;
+	color: #7e7c87;
+    width: 25%;
+    height: 80px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+.contact_info_item i{
+    font-size: 30px;
+    color: #2C6975;
+}
+.contact_info_content{
+    
+    color: #2C6975;
+margin: auto;
+
+}
+#contact{
+	padding: 5vw;
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+    padding-left: 13vw;
+}
+#contact .form{
+	width: 85%;
+	background: #f7f6fa;
+	padding: 40px;
+	border-radius: 10px;
+    margin-left: 12rem;
+}
+#contact .form h4{
+	font-size: 24px;
+	color: #2C6975;
+	line-height: 30px;
+	margin-bottom: 8px;
+}
+#contact .form p{
+	color: #686875;
+	line-height: 24px;
+	padding-bottom: 25px;
+}
+#contact .form .form-row{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+}
+#contact .form .form-row input{
+	width: 48%;
+	font-size: 14px;
+	font-weight: 400;
+	border-radius: 3px;
+	border: none;
+	background: #fff;
+	color: #7e7c87;
+	outline: none;
+	padding: 20px 30px;
+	margin-bottom: 20px;
+
+}
+#contact .form .form-col input,
+#contact .form .form-col textarea{
+	width: 100%;
+	font-size: 14px;
+	font-weight: 400;
+	border-radius: 3px;
+	border: none;
+	background: #fff;
+	color: #7e7c87;
+	outline: none;
+	padding: 20px 30px;
+	margin-bottom: 20px;
+
+}
+#contact .form button{
+	font-size: .9rem;
+	padding: 13px 25px;
+	background: #2C6975;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	color: #fff;
+}
+
+@media (min-width: 200px) and (max-width:779px){
+    .contact_info_item{
+        margin: 30px;
+        width: 250px;
+        height: 100px;
+        /* border: 2px solid black; */
+       
+    }
+    .maindiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        flex-direction: column;
+       
+       
+    }
+    #contact .form .form-row input{
+        padding: 0px;
+    }
+    #contact .form{
+        padding: 0px;
+    }
+
+}
+
+#map{
+	width: 100%;
+	height: 80vh;
+	padding: 5vw 10vw;
+}
+#map iframe{
+	width: 100%;
+	height: 100%;
+}
